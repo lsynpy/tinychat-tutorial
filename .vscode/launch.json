@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(lldb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/transformer/test_linear", // 替换为你的可执行文件路径
+      "args": [], // 如果需要，可以在这里添加程序参数
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/transformer",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for lldb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "build", // 编译任务的标签
+      "internalConsoleOptions": "openOnSessionStart",
+      "osx": {
+        "MIMode": "lldb"
+      }
+    }
+  ]
+}
