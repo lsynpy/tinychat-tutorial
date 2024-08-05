@@ -2,12 +2,21 @@
   "cSpell.words": [
     "accesible",
     "Befenits",
+    "dequantize",
+    "DIMP",
     "elelment",
+    "ffast",
     "fpbuffer",
+    "fpermissive",
     "intbuffer",
     "matmul",
     "Matmul",
-    "sqdiff"
+    "mavx",
+    "mfma",
+    "pthread",
+    "simd",
+    "sqdiff",
+    "weigths"
   ],
   "cmake.ignoreCMakeListsMissing": true
 }
